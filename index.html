@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>How many days are left?...</title>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 class="time-h1">Time left for:</h1>
+
+        <div class="counter-flex">
+            <div class="count-el days-count">
+                <p class="big-text days">00</p>
+                <span>days</span>
+            </div>
+            <div class="count-el hours-count">
+                <p class="big-text hours">00</p>
+                <span>hours</span>
+            </div>
+            <div class="count-el minutes-count">
+                <p class="big-text minutes">00</p>
+                <span>minutes</span>
+            </div>
+            <div class="count-el seconds-count">
+                <p class="big-text seconds">00</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="btn" onclick="reloadPage()">Change the date</button>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
